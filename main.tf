@@ -7,6 +7,6 @@ resource "aws_sqs_queue" "this" {
   sqs_managed_sse_enabled = true
 }
 
-output "quque_url" {
+output "queue_url" {
   value = aws_sqs_queue.this.url
 }
