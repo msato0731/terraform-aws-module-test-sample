@@ -3,7 +3,7 @@ variable "name" {}
 
 
 resource "aws_sqs_queue" "this" {
-  name                    = "${prefix}-${name}"
+  name                    = "${var.prefix}-${var.name}"
   sqs_managed_sse_enabled = true
 }
 

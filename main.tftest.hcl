@@ -25,5 +25,3 @@ run "output_validation" {
     error_message = "incorrect value for queue url"
   }
 }
-
-This test file contains two test scenarios. The first scenario, "attributes_validation", checks the correctness of the resource attributes. The second scenario, "output_validation", checks the correctness of the output.

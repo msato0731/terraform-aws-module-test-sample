@@ -1,0 +1,1 @@
+terraform test -cloud-run=app.terraform.io/classmethod-sandbox/module-test-sample/aws
